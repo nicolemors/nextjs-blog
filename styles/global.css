@@ -1,13 +1,17 @@
+@import "./design-tokens.css";
+@import "./typography.css";
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
-  background-color: #000;
-  color: #fff;
+  font-family: var(--font-family-default);
+  line-height: var(--line-height-sm);
+  font-size: var(--font-size-base);
+  word-wrap: break-word;
+  text-size-adjust: none;
+  background-color: var(--black);
+  color: var(--silver);
 }
 
 * {
@@ -15,7 +19,7 @@ body {
 }
 
 a {
-  color: purple;
+  color: var(--blue);
   text-decoration: none;
 }
 

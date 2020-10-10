@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url("https://use.typekit.net/brb2aqs.css");
+
+/* Color */
+
+:root {
+    --blue: #327AEC;
+    --navy: #194784;
+    --teal: #71F5CC;
+    --green: #72F4A0;
+    --lime: #9BF24D;
+
+    --black: #050505;
+    --grey-1: #636364;
+    --grey-2: #4B4B4B;
+    --grey-3: #2D2D2D;
+    --grey: #B2B2B2;
+    --silver: #F9F9F9;
+    --white: #f1d4d4;
+
+    --gradient-1: linear-gradient(165deg, rgba(113,245,204,1) 0%, rgba(120,244,182,1) 37%, rgba(155,242,77,1) 100%);
+    --gradient-2: linear-gradient(159deg, rgba(113,245,204,1) 20%, rgba(50,122,236,1) 100%);
+}
+
+/* Typography */
+
+:root {
+    --font-family-default: 'Montserrat', Helvetica Neue, sans-serif;
+    --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    --font-family-mono: Consolas, 'Lucida Console', 'Liberation Mono',
+    'Courier New', monospace, sans-serif;
+
+    --font-family-display: lust-script-display, Georgia, serif;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    /* Modular Scale: https://www.modularscale.com/?16&px&1.333 */
+    --font-size-base: 1em; /* 16px - <p> */
+
+    --font-size-xs: 0.563em; /* 9px small */
+    --font-size-sm: 0.75em; /* 12px <h5> */
+    --font-size-md: 1.333em; /* 21px <h4> */
+    --font-size-lg: 1.777em; /* 28px <h3> */
+    --font-size-xl: 2.369em; /* 38px <h2> */
+    --font-size-xxl: 3.157em; /* 50px <h1> */
+
+    --line-height-xs: var(--font-size-sm);
+    --line-height-sm: var(--font-size-md);
+    --line-height-md: var(--font-size-lg);
+    --line-height-lg: var(--font-size-xl);
+    --line-height-xl: var(--font-size-xx);
+
+    --heading-font: var(--font-weight-bold) var(--font-size-lg) var(--font-family-default);
+    --code-font: var(--font-size-sm) var(--font-family-mono);
+}
+
+/* Spacing */
+:root {
+    --space: var(--font-size-base); /* 1em 16px */
+    --space-xs: var(--font-size-xs); /* 0.563em 9px */
+    --space-sm: var(--font-size-sm); /* 0.75em 12px */
+    --space-md: var(--font-size-md); /* 1.333em 21px */
+    --space-lg: var(--font-size-lg); /* 1.777em 28px */
+    --space-xl: var(--font-size-xl); /* 2.369em 38px */
+    --space-xxl: var(--font-size-xxl); /* 3.157em 50px */
+}
+
+/* Opacity */
+:root {
+    --opacity-lower: 0.125;
+    --opacity-low: 0.25;
+    --opacity-mid: 0.5;
+    --opacity-high: 0.75;
+}
+
+/* Shades */
+:root {
+    --shade-lower: rgba(var(--black), 0.125);
+    --shade-low: rgba(var(--black), 0.25);
+    --shade-mid: rgba(var(--black), 0.5);
+    --shade-high: rgba(var(--black), 0.75);
+}
+
+/* Border */
+:root {
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+  --border-width-lg: 3px;
+
+  --border-radius-xs: 2px;
+  --border-radius-sm: 3px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 20px;
+  --border-radius-xl: 30px;
+  --border-radius-circle: 50%;
+}
+
+/* Rules */
+:root {
+    --rule-color: var(--grey);
+    --rule-style: solid;
+    --rule-width-sm: var(--border-width-sm);
+    --rule-width-md: var(--border-width-md);
+}
+
+/* Shadow */
+:root {
+    --shadow-sm: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    --shadow-md: rgba(0, 0, 0, 0.2) 0 2px 6px;
+    --shadow-lg: rgba(0, 0, 0, 0.1) 0 3px 9px;
+    --shadow-xl: rgba(0, 0, 0, 0.05) 0 4px 12px -8px;
+}

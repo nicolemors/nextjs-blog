@@ -1,0 +1,207 @@
+@import "./design-tokens.css";
+
+
+p {
+    line-height: var(--line-height-lg);
+    margin: var(--space-sm) 0;
+}
+  
+/**
+* Headings
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: var(--heading-font);
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-black);
+}
+
+h2 {
+    font-size: var(--font-size-xl);
+}
+
+h3 {
+    font-size: var(--font-size-lg);
+}
+
+h4 {
+    font-size: var(--font-size-md);
+}
+
+h5 {
+    font-size: var(--font-size-sm);
+}
+
+/**
+* Small text
+*/
+
+small {
+    font-size: var(--font-size-xs);
+}
+
+/**
+* Small caps
+* http://typeplate.com/#small-caps
+*/
+
+abbr {
+    font-variant: small-caps;
+    text-align: uppercase;
+}
+
+/**
+* Remove hyphenation from elements with significant formatting
+*/
+
+abbr,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+    hyphens: none;
+}
+
+/**
+* Use custom monospace font on all code-like elements
+*/
+
+pre,
+code,
+kbd,
+samp,
+var {
+    font: var(--code-font);
+}
+
+/**
+* Control whitespace and wrapping on code blocks
+*/
+
+pre,
+code {
+    white-space: pre;
+    line-height: var(--line-height-xs);
+}
+
+code {
+    word-wrap: normal;
+}
+
+/**
+* Lists
+*/
+
+ul,
+ol,
+dl {
+    list-style-position: outside;
+}
+
+ol {
+    padding: 0 0 0 var(--space-sm);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-md);
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/**
+* Description Lists
+*/
+dt {
+    float: left;
+    clear: left;
+    text-align: right;
+    font-weight: var(--font-weight-bold);
+    padding: var(--space-xs);
+}
+
+dd {
+    padding: var(--space-xs);
+}
+
+dl:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/**
+* Horizontal rule
+*/
+
+hr {
+    height: var(--border-width-md);
+    min-height: var(--border-width-sm);
+    border-style: none;
+    background-color: inherit;
+    opacity: var(--opacity-lower);
+}
+
+/**
+* Blockquote
+*
+* Assumes markup to be:
+*
+* <blockquote>
+*   <p>The movie was awesome</p>
+*   <footer>
+*     <cite>Some Person</cite>
+*   </footer>
+* </blockquote>
+*
+* http://html5doctor.com/cite-and-blockquote-reloaded/
+*/
+
+blockquote {
+    padding-left: var(--space-md);
+    font-style: italic;
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+}
+
+blockquote p {
+    margin-bottom: var(--space-sm);
+}
+
+blockquote :matches(p:last-of-type, footer) {
+    display: block;
+}
+
+blockquote cite {
+    font-style: normal;
+}
+
+/**
+* Precede citation with em dash and non-breaking space.
+*/
+blockquote cite::before {
+    content: "—\00a0";
+}
+
+/**
+*  A heavy weight for displaying prominent text.
+*/
+strong,
+b {
+    font-weight: var(--font-weight-bold);
+}
