@@ -1,5 +1,6 @@
 @import "./design-tokens.css";
 @import "./typography.css";
+@import "./components/index.css";
 
 html,
 body {

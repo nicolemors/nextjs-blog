@@ -1,19 +1,19 @@
+import styles from './header.module.css'
 import Head from 'next/head'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import styles from './layout.module.css'
+import utilStyles from '../styles/utils.module.css'
 
 const name = 'Nicole Mors'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'J. Nicole Mors'
 
-export default function Layout({ children, home }) {
+export default function Header({ children, home }) {
   return (
-    <div className={styles.container}>
-      <Head>
+    <div>
+        <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
+          name="Portfolio website and blog of J. Nicole Mors"
+          content="Product Design"
         />
         <meta
           property="og:image"
@@ -28,19 +28,19 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              src="/images/logo-dark.png"
+              className={styles.header__logo}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.hidden_visually}>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.jpg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                  src="/images/logo-dark.png"
+                  className={styles.header__logo}
                   alt={name}
                 />
               </a>

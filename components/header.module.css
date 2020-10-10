@@ -1,0 +1,8 @@
+.header {
+    background: var(--black);
+    color: var(--silver);
+}
+
+.header__logo {
+    width: 290px;
+}

@@ -1,0 +1,66 @@
+/**
+* 1. Normalize `box-sizing` across all elements that this component could be
+*    applied to.
+* 2. Corrects inability to style clickable `input` types in iOS.
+* 3. Prevent button text from being selectable.
+* 4. Make sure `input` will wrap text across multiple lines.
+*/
+
+.button {
+  display: inline-block;
+  box-sizing: border-box; /* 1 */
+  padding: var(--space-sm) var(--space-lg);
+  appearance: none; /* 2 */
+
+  background: transparent;
+  border: solid var(--border-width-lg) var(--green);
+  color: var(--green);
+
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  user-select: none; /* 3 */
+  vertical-align: middle;
+  white-space: normal; /* 4 */
+
+  transition-duration: var(--motion-duration-sm);
+  transition-property: background-color, border-color, color;
+  transition-timing-function: var(--motion-timing-fuction-default);
+}
+  
+/**
+* Remove excess padding and border in Firefox 4+
+*/
+
+.button:-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/**
+* UI states
+*/
+.button:hover,
+.button:active,
+.button.active,
+.button.selected,
+.button:focus {
+  background-color: var(--green);
+  color: var(--black);
+  text-decoration: none;
+}
+
+/**
+  * Hide default focus ring. For some reason in Chrome this only works if it's
+  * specifically on the focus state.
+*/
+
+.button:focus {
+  outline: none;
+}
+  
