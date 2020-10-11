@@ -13,4 +13,5 @@
     max-width: 290px;
     grid-column-start: 2;
     grid-column-end: 5;
+    z-index: 2
 }

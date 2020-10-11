@@ -1,16 +1,20 @@
 .divider {
     background-color: var(--black);
     width: 100%;
-    height: 7em;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 0);
+    height: 12em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 38%);
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
+
+    margin-top: -2em;
 }
 
 .switch {
     grid-column-start: 9;
-    grid-column-end: span col12-start;
+    grid-column-end: 12;
+    justify-self: end;
+    margin-right: var(--space-sm);
 }
