@@ -9,13 +9,14 @@
 .button {
   display: inline-block;
   box-sizing: border-box; /* 1 */
-  padding: var(--space-sm) var(--space-lg);
+  padding: var(--space-sm) var(--space-xl);
   appearance: none; /* 2 */
 
   background: transparent;
   border: solid var(--border-width-lg) var(--green);
   color: var(--green);
 
+  font-family: var(--font-family-default);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
   line-height: 1em;

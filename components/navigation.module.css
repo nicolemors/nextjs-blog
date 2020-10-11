@@ -2,8 +2,6 @@
 .navigation {
     grid-column-start: 9;
     grid-column-end: span col12-start;
-    display: flex;
-    align-items: center;
 }
 
 .navigation ul {

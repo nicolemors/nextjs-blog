@@ -1,7 +1,6 @@
 import styles from './header.module.css'
 import Head from 'next/head'
 import Navigation from './navigation'
-import Button from './button'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
@@ -55,9 +54,6 @@ export default function Header(home) {
           </>
         )}
         <Navigation />
-        <div className={styles.header__theme_changer}>
-            <Button>Light Mode</Button>
-        </div>
       </header>
     </div>
   )

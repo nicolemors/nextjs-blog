@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 import Button from '../components/button.tsx'
 import utilStyles from '../styles/utils.module.css'
+import Hero from '../components/hero.tsx'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -16,8 +17,8 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <>
+    <Hero />
     <section className="global-grid__content">
-        <h1>Page title</h1>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
