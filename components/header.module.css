@@ -1,8 +1,21 @@
 .header {
     background: var(--black);
     color: var(--silver);
+    padding-top: var(--space-lg);
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
 }
 
 .header__logo {
-    width: 290px;
+    max-width: 290px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.header__theme_changer {
+    grid-column-start: 10;
+    grid-column-end: span col12-start;
 }

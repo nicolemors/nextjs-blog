@@ -1,0 +1,15 @@
+
+.global-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+
+.global-grid__content {
+    grid-column-start: 2;
+    grid-column-end: five;
+}
+

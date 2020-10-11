@@ -1,14 +1,16 @@
 import styles from './header.module.css'
 import Head from 'next/head'
+import Navigation from './navigation'
+import Button from './button'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
 const name = 'Nicole Mors'
 export const siteTitle = 'J. Nicole Mors'
 
-export default function Header({ children, home }) {
+export default function Header(home) {
   return (
-    <div>
+    <div className="global-grid__content">
         <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -52,15 +54,11 @@ export default function Header({ children, home }) {
             </h2>
           </>
         )}
-      </header>
-      <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
+        <Navigation />
+        <div className={styles.header__theme_changer}>
+            <Button>Light Mode</Button>
         </div>
-      )}
+      </header>
     </div>
   )
 }

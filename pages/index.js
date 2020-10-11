@@ -1,5 +1,3 @@
-import Header, { siteTitle } from '../components/header.tsx'
-import Head from 'next/head'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
@@ -17,11 +15,8 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Header home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section>
+    <>
+    <section className="global-grid__content">
         <h1>Page title</h1>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
@@ -29,7 +24,7 @@ export default function Home({ allPostsData }) {
         </p>
         <Button>Button!</Button>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className="global-grid__content">
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -45,7 +40,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-    </Header>
+    </>
   )
 }
 

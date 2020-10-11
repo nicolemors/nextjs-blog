@@ -1,0 +1,23 @@
+
+.navigation {
+    grid-column-start: 9;
+    grid-column-end: span col12-start;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navigation a {
+    color: var(--green);
+    padding: var(--space-md) var(--space-sm);
+}
+
+/* This isn't right, fix it */
+.navigation ul:last-child li a {
+    margin-right: 0;
+}
