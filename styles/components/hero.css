@@ -13,3 +13,7 @@
     align-items: flex-end;
     justify-content: center;
 }
+
+.light-mode .hero {
+    background-image: url("/public/images/hero-background-light.jpg");
+}

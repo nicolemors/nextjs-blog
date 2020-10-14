@@ -15,6 +15,11 @@ body {
   color: var(--silver);
 }
 
+body.light-mode {
+  background-color: var(--white);
+  color: var(--black);
+}
+
 * {
   box-sizing: border-box;
 }

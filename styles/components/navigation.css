@@ -20,3 +20,7 @@
 .navigation ul:last-child li a {
     margin-right: 0;
 }
+
+.light-mode .navigation a {
+    color: var(--black);
+}

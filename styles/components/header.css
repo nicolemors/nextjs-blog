@@ -15,3 +15,7 @@
     grid-column-end: 5;
     z-index: 2
 }
+
+body.light-mode .header {
+    background: var(--green);
+}

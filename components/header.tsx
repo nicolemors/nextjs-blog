@@ -1,4 +1,4 @@
-import styles from './header.module.css'
+
 import Head from 'next/head'
 import Navigation from './navigation'
 import Link from 'next/link'
@@ -25,12 +25,12 @@ export default function Header(home) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header className="header">
         {home ? (
           <>
             <img
               src="/images/logo-dark.png"
-              className={styles.header__logo}
+              className="header__logo"
               alt={name}
             />
             <h1 className={utilStyles.hidden_visually}>{name}</h1>

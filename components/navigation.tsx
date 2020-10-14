@@ -3,7 +3,7 @@ import styles from './navigation.module.css'
 
 export default function Navigation () {
     return (
-        <nav className={styles.navigation}>
+        <nav className="navigation">
             <ul>
                 <li><a>Portfolio</a></li>
                 <li><a>Blog</a></li>

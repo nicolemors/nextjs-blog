@@ -64,4 +64,19 @@
 .button:focus {
   outline: none;
 }
+
+.light-mode .button {
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.light-mode .button:hover,
+.light-mode .button:active,
+.light-mode .button.active,
+.light-mode .button.selected,
+.light-mode .button:focus {
+  background-color: var(--black);
+  color: var(--green);
+  text-decoration: none;
+}
   
