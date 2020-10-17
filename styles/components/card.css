@@ -1,0 +1,15 @@
+
+.card {
+    background: var(--silver);
+    padding: var(--space-lg);
+    color: var(--black);
+    width: 12em;
+    float: left;
+    margin: var(--space-md);
+}
+
+.card__name {
+    background: var(--green);
+    height: 250px;
+    display: block;
+}

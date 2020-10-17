@@ -6,7 +6,7 @@ export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
   return (
-    <div class="global-grid__content">
+    <div className="global-grid__content">
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
