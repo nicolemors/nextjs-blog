@@ -14,6 +14,23 @@
     justify-content: center;
 }
 
+.hero__header {
+    font-family: var(--font-family-display);
+    font-size: var(--font-size-display);
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.hero__subheader {
+    margin: 0;
+    color: var(--green);
+}
+
+.light-mode .hero__header,
+.light-mode .hero__subheader {
+    color: var(--white);
+}
+
 .light-mode .hero {
     background-image: url("/public/images/hero-background-light.jpg");
 }

@@ -1,9 +1,11 @@
 
 
-export default function Hero () {
+export default function Hero({ children, home })  {
     return (
         <div className="hero">
-            <h1>Product Designer</h1>
+            {!home && (
+                <span>{children}</span>
+            )}
         </div>
     )
 }

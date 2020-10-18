@@ -41,7 +41,7 @@ export default function Header(home) {
               <a>
                 <img
                   src="/images/logo-dark.png"
-                  className={styles.header__logo}
+                  className="header__logo"
                   alt={name}
                 />
               </a>
