@@ -3,7 +3,7 @@ title: 'Reality Bites'
 subtitle: 'Design Systems For The Real World'
 date: '2020-01-01'
 image: '/images/hero-background-dark.png'
-categories: 'design'
+categories: ['design', 'design systems', 'dev']
 ---
 
 Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of our questions courage of our questions.
