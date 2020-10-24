@@ -154,7 +154,6 @@ hr {
     min-height: var(--border-width-sm);
     border-style: none;
     background-color: inherit;
-    opacity: var(--opacity-lower);
 }
 
 /**

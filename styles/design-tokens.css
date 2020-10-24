@@ -14,8 +14,11 @@
     --grey-1: #636364;
     --grey-2: #4B4B4B;
     --grey-3: #2D2D2D;
+    --grey-4: #1B1B1B;
+    --grey-5: #0F0F0F;
     --grey: #B2B2B2;
     --silver: #F9F9F9;
+    --whiteish: #f1f1f1;
     --white: #ffffff;
 
     --gradient-1: linear-gradient(165deg, rgba(113,245,204,1) 0%, rgba(120,244,182,1) 37%, rgba(155,242,77,1) 100%);
@@ -113,4 +116,11 @@
     --shadow-md: rgba(0, 0, 0, 0.2) 0 2px 6px;
     --shadow-lg: rgba(0, 0, 0, 0.1) 0 3px 9px;
     --shadow-xl: rgba(0, 0, 0, 0.05) 0 4px 12px -8px;
+}
+
+/* Angles */
+
+:root {
+    --angle-dark: polygon(0 0, 100% 0, 100% 66%, 0 32%);
+    --angle-light: polygon(0 0, 100% 0, 100% 32%, 0 66%)
 }

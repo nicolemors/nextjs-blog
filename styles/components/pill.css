@@ -1,0 +1,8 @@
+.pill {
+    background: var(--blue);
+    color: var(--white);
+    border-radius: var(--border-radius-lg);
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    font-weight: var(--font-weight-md);
+}

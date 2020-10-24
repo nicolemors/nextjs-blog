@@ -1,10 +1,11 @@
 .hero {
-    background-image: url("/public/images/hero-background-dark@2x.png");
-    background-size: cover;
+    background-image: url("/public/images/teal-lightning.jpg");
     background-repeat: no-repeat;
-    height: 25em;
+    background-position: center -1160px;
+    background-size: 2000px;
+    height: 30em;
     margin-top: -9em;
-    background-position: center;
+    padding-bottom: var(--space-lg);
 
     text-align: center;
     display: flex;
@@ -33,4 +34,42 @@
 
 .light-mode .hero {
     background-image: url("/public/images/hero-background-light.jpg");
+    background-size: 1800px;
+    background-position: center -300px;
+}
+
+.home-hero {
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+    line-height: var(--line-height-xs);
+}
+
+.home-hero h1 {
+    margin-bottom: 0;
+    font-weight: var(--font-weight-bold);
+}
+
+.home-hero__title {
+    line-height: var(--line-height-xs);
+    display: flex;
+    justify-content: center;
+}
+
+.home-hero__and {
+    font-family: var(--font-family-display);
+    font-size: var(--font-size-xl);
+}
+
+.home-hero__divider {
+    height: var(--border-width-lg);
+    background-color: var(--green);
+}
+
+.home-hero__whatever {
+    display: block;
+    line-height: var(--line-height-xs);
+    font-weight: var(--font-weight-regular);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: var(--font-size-sm);
 }

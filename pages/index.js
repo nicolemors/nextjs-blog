@@ -1,9 +1,9 @@
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
-import Button from '../components/button.tsx'
 import utilStyles from '../styles/utils.module.css'
 import Hero from '../components/hero.tsx'
+import Search from '../components/search'
 import { motion } from "framer-motion"
 
 export async function getStaticProps() {
@@ -41,45 +41,99 @@ const fadeInUp = {
   }
 };
 
+function isBlogPosts (post) { return post.type === 'blog' }
+
 export default function Home({ allPostsData }) {
+  const blogPostsData = allPostsData.filter( isBlogPosts )
+  const portfolioPostsData = allPostsData.filter( post => post.type === 'work' )
   return (
     <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }}>
-      <Hero />
-      <section className="global-grid__content">
-          <p>
-            (This is a sample website - you’ll be building a site like this on{' '}
-            <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-          </p>
+      <Hero>
+        <div className="home-hero">
+          <h1>
+            <div className="home-hero__title">
+              Designer
+              <span className="home-hero__and">&amp;</span>
+            </div>
+            <hr className="home-hero__divider" />
+            <span className="home-hero__whatever">Developer</span>
+          </h1>
+        </div>
+      </Hero>
+      <div class="content">
+        <section className="section-1">
+          <div class="intro">
+            <h2>Headline...</h2>
+            <p>
+              Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. 
+              Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small 
+              stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer 
+              clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of 
+              our questions courage of our questions.
+            </p>
+          </div>
+        </section>
+        <div className="section-1-bottom"></div>
+        <section className="section-2">
+          <div className="section__header">
+            <h3>Recent Blog Posts</h3>
             <motion.div variants={fadeInUp}>
-              <Button>Button!</Button>
+                  <Search />
             </motion.div>
+          </div>
+            <motion.ul variants={stagger}  className="card__layout">
+              {blogPostsData.map(({ id, date, title, image }) => (
+                <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
+                  <Link href={`/posts/${id}`}>
+                    <div className="card">
+                      <motion.image 
+                      initial={{x: 60, opacity: 0}}
+                      animate={{x: 0, opacity: 1}}
+                      transition={{delay: 0.2}} 
+                      className="card__name" 
+                      src={image} 
+                      width={250} />
+                    <a>{title}</a>
+                    <br />
+                    <small className={utilStyles.lightText}>
+                      <Date dateString={date} />
+                    </small>
+                    </div>
+                  </Link>
+                </motion.li>
+              ))}
+            </motion.ul>
         </section>
-        <section className="global-grid__content">
-          <h2 className={utilStyles.headingLg}>Blog</h2>
-          <motion.ul variants={stagger} className={utilStyles.list}>
-            {allPostsData.map(({ id, date, title, image }) => (
-              <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
-                <Link href={`/posts/${id}`}>
-                  <div className="card">
-                    <motion.image 
-                    initial={{x: 60, opacity: 0}}
-                    animate={{x: 0, opacity: 1}}
-                    transition={{delay: 0.2}} 
-                    className="card__name" 
-                    src={image} 
-                    width={250} />
-                  <a>{title}</a>
-                  <br />
-                  <small className={utilStyles.lightText}>
-                    <Date dateString={date} />
-                  </small>
-                  </div>
-                </Link>
-              </motion.li>
-            ))}
-          </motion.ul>
+        <div className="section-2-bottom"></div>
+        <section className="section-3">
+          <h3 className="section__header">Recent Projects</h3>
+            <motion.ul variants={stagger} className="card__layout">
+              {portfolioPostsData.map(({ id, date, title, image }) => (
+                <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
+                  <Link href={`/posts/${id}`}>
+                    <div className="card">
+                      <motion.image 
+                      initial={{x: 60, opacity: 0}}
+                      animate={{x: 0, opacity: 1}}
+                      transition={{delay: 0.2}} 
+                      className="card__name" 
+                      src={image} 
+                      width={250} />
+                    <a>{title}</a>
+                    <br />
+                    <small className={utilStyles.lightText}>
+                      <Date dateString={date} />
+                    </small>
+                    </div>
+                  </Link>
+                </motion.li>
+              ))}
+            </motion.ul>
         </section>
-      </motion.div>
+        <div className="section-1-bottom"></div>
+        <footer className="section-footer"></footer>
+      </div>
+    </motion.div>
   )
 }
 

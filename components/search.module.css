@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+}
+
+.search {
+  border: var(--border-width-sm);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  padding: var(--space-sm);
+  width: 100%;
+}
+
+.results {
+  list-style: none;
+  overflow: hidden;
+  margin: var(--space-sm) 0 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.result {
+  background: var(--black);
+  color: var(--white);
+  margin: 0 0 var(--space-sm);
+  padding: var(--space-lg);
+}
+
+.result a {
+  color: var(--green);
+}

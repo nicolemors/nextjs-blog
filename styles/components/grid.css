@@ -1,4 +1,72 @@
 
+.content {
+  padding: var(--space-xxl);
+}
+
+.section-1,
+.section-1-bottom,
+.section-3 {
+  background-color: var(--grey-5);
+}
+
+.light-mode .section-1,
+.light-mode .section-1-bottom,
+.light-mode .section-3 {
+  background-color: var(--silver);
+}
+
+.section-2,
+.section-2-bottom,
+.section-footer {
+  background-color: var(--grey-4);
+}
+
+.light-mode .section-2,
+.light-mode .section-2-bottom,
+.light-mode .section-footer {
+  background-color: var(--whiteish);
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.section-2,
+.section-3,
+.section-footer {
+  padding-top: 10rem;
+  margin-top: -12rem;
+}
+
+.section-1-bottom,
+.section-2-bottom {
+  clip-path: var(--angle-dark);
+  height: 12em;
+}
+
+.section-1 {
+  padding-top: var(--space-lg);
+}
+
+.intro {
+  grid-column-start: 3;
+  grid-column-end: 11;
+}
+
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: 12;
+}
+
 .global-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

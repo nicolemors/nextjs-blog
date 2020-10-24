@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import Navigation from './navigation'
+import Logo from './logo'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
@@ -28,22 +29,14 @@ export default function Header(home) {
       <header className="header">
         {home ? (
           <>
-            <img
-              src="/images/logo-dark.png"
-              className="header__logo"
-              alt={name}
-            />
+            <Logo />
             <h1 className={utilStyles.hidden_visually}>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/">
               <a>
-                <img
-                  src="/images/logo-dark.png"
-                  className="header__logo"
-                  alt={name}
-                />
+                <Logo />
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>

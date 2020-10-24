@@ -13,9 +13,17 @@
     max-width: 290px;
     grid-column-start: 2;
     grid-column-end: 5;
-    z-index: 2
+    z-index: 2; 
 }
 
-body.light-mode .header {
+.header__svg {
+    fill: var(--gradient-1);
+}
+
+.light-mode .header__svg {
+    fill: var(--black);
+}
+
+.light-mode .header {
     background: var(--green);
 }
