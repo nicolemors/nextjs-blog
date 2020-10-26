@@ -28,10 +28,10 @@ export default function Header(home) {
       </Head>
       <header className="header">
         {home ? (
-          <>
+          <div className="header__logo">
             <Logo />
             <h1 className={utilStyles.hidden_visually}>{name}</h1>
-          </>
+          </div>
         ) : (
           <>
             <Link href="/">

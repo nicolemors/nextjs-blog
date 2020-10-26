@@ -17,7 +17,7 @@
 }
 
 .header__svg {
-    fill: var(--gradient-1);
+    fill: url(#logo-gradient);
 }
 
 .light-mode .header__svg {

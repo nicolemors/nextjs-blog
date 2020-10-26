@@ -8,18 +8,33 @@
     grid-column-end: 12;
 }
 
+.card__layout ul {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
 .card__layout ul,
 .card__layout li {
     margin: 0;
     padding: 0;
+
 }
 
 .card {
-    background: var(--silver);
-    padding: var(--space-lg);
-    color: var(--black);
+    background: var(--black);
+    border: solid var(--border-width-lg) var(--white);
+    color: var(--white);
     width: 12em;
-    margin-right: var(--space-md);
+
+}
+
+.card__image {
+    background: var(--gradient-1);
+    height: 6em;
+    display: block;
 }
 
 .card__name {

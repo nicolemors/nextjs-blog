@@ -90,9 +90,8 @@ export default function Home({ allPostsData }) {
                       initial={{x: 60, opacity: 0}}
                       animate={{x: 0, opacity: 1}}
                       transition={{delay: 0.2}} 
-                      className="card__name" 
-                      src={image} 
-                      width={250} />
+                      className="card__image" 
+                      src={image} />
                     <a>{title}</a>
                     <br />
                     <small className={utilStyles.lightText}>
