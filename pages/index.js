@@ -60,9 +60,9 @@ export default function Home({ allPostsData }) {
           </h1>
         </div>
       </Hero>
-      <div class="content">
+      <div className="content">
         <section className="section-1">
-          <div class="intro">
+          <div className="intro">
             <h2>Headline...</h2>
             <p>
               Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. 
@@ -82,21 +82,25 @@ export default function Home({ allPostsData }) {
             </motion.div>
           </div>
             <motion.ul variants={stagger}  className="card__layout">
-              {blogPostsData.map(({ id, date, title, image }) => (
+              {blogPostsData.map(({ id, date, title, subtitle }) => (
                 <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
                   <Link href={`/posts/${id}`}>
                     <div className="card">
-                      <motion.image 
+                      <motion.div
                       initial={{x: 60, opacity: 0}}
                       animate={{x: 0, opacity: 1}}
                       transition={{delay: 0.2}} 
-                      className="card__image" 
-                      src={image} />
-                    <a>{title}</a>
-                    <br />
-                    <small className={utilStyles.lightText}>
-                      <Date dateString={date} />
-                    </small>
+                      className="card__image" >
+                        <a className="card__title">{title}</a>
+                      </motion.div>
+                      <div className="card__content">
+                        
+                        <a className="card__sub-title">{subtitle}</a>
+                        <br />
+                        <div className="card__date">
+                          <Date dateString={date} />
+                        </div>
+                      </div>
                     </div>
                   </Link>
                 </motion.li>
@@ -107,25 +111,28 @@ export default function Home({ allPostsData }) {
         <section className="section-3">
           <h3 className="section__header">Recent Projects</h3>
             <motion.ul variants={stagger} className="card__layout">
-              {portfolioPostsData.map(({ id, date, title, image }) => (
+              {portfolioPostsData.map(({ id, date, title, subtitle }) => (
                 <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
-                  <Link href={`/posts/${id}`}>
-                    <div className="card">
-                      <motion.image 
-                      initial={{x: 60, opacity: 0}}
-                      animate={{x: 0, opacity: 1}}
-                      transition={{delay: 0.2}} 
-                      className="card__name" 
-                      src={image} 
-                      width={250} />
-                    <a>{title}</a>
-                    <br />
-                    <small className={utilStyles.lightText}>
-                      <Date dateString={date} />
-                    </small>
+                <Link href={`/posts/${id}`}>
+                  <div className="card">
+                    <motion.div
+                    initial={{x: 60, opacity: 0}}
+                    animate={{x: 0, opacity: 1}}
+                    transition={{delay: 0.2}} 
+                    className="card__image" >
+                      <a className="card__title">{title}</a>
+                    </motion.div>
+                    <div className="card__content">
+                      
+                      <a className="card__sub-title">{subtitle}</a>
+                      <br />
+                      <div className="card__date">
+                        <Date dateString={date} />
+                      </div>
                     </div>
-                  </Link>
-                </motion.li>
+                  </div>
+                </Link>
+              </motion.li>
               ))}
             </motion.ul>
         </section>

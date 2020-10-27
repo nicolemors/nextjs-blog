@@ -1,8 +1,19 @@
+.pills {
+    list-style: none;
+    display: flex;
+}
+
 .pill {
     background: var(--blue);
     color: var(--white);
     border-radius: var(--border-radius-lg);
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-sm);
     text-transform: uppercase;
-    font-weight: var(--font-weight-md);
+    font-weight: var(--font-weight-bold);
+    padding: 0 var(--space-sm);
+    margin-right: var(--space-sm);
+}
+
+.pill:last-of-type {
+    margin-right: 0;
 }

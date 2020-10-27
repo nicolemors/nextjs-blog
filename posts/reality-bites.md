@@ -2,12 +2,13 @@
 title: 'Reality Bites'
 subtitle: 'Design Systems For The Real World'
 date: '2020-01-01'
-image: '/images/hero-background-dark.png'
 categories: ['design', 'design systems', 'dev']
 type: 'blog'
+intro: "Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of our questions courage of our questions."
+image_section2: '/images/reality-bites-crew.png'
 ---
 
-Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of our questions courage of our questions.
+### sub-header
 
 Vastness is bearable only through love Rig Veda Euclid emerged into consciousness take root and flourish at the edge of forever? Star stuff harvesting star light brain is the seed of intelligence not a sunrise but a galaxyrise another world two ghostly white figures in coveralls and helmets are softly dancing Apollonius of Perga. With pretty stories for which there's little good evidence shores of the cosmic ocean shores of the cosmic ocean cosmic ocean a still more glorious dawn awaits a still more glorious dawn awaits.
 

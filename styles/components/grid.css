@@ -21,6 +21,14 @@
   background-color: var(--grey-4);
 }
 
+.section-2__img {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  z-index: 2;
+  margin-top: -8em;
+  margin-bottom: -10em;
+}
+
 .light-mode .section-2,
 .light-mode .section-2-bottom,
 .light-mode .section-footer {
@@ -54,7 +62,16 @@
   padding-top: var(--space-lg);
 }
 
-.intro {
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--font-weight-bold);
+}
+
+.intro, 
+.meta,
+.prose {
   grid-column-start: 3;
   grid-column-end: 11;
 }

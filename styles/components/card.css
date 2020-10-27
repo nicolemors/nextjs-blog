@@ -1,6 +1,8 @@
 
 .card__layout {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: var(--space-xxl);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -27,18 +29,54 @@
     background: var(--black);
     border: solid var(--border-width-lg) var(--white);
     color: var(--white);
-    width: 12em;
+}
 
+.light-mode .card {
+    border-color: var(--grey-4);
+    background: var(--white);
 }
 
 .card__image {
     background: var(--gradient-1);
-    height: 6em;
-    display: block;
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: var(--space-lg) var(--space-lg) var(--space-sm);
 }
 
-.card__name {
-    background: var(--green);
-    height: 250px;
-    display: block;
+.card__title {
+    color: var(--black);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-lg);
+    line-height: 1em;
+}
+
+.card__content {
+    padding: var(--space-sm) var(--space-lg);
+    position: relative;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__sub-title {
+    color: var(--white);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+    line-height: 1em;
+}
+
+.light-mode .card__sub-title {
+    color: var(--grey-4);
+}
+
+.card__date {
+    align-self: flex-end;
+    color: var(--green);
+}
+
+.light-mode  .card__date {
+    color: var(--grey-4);
 }
