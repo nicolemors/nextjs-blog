@@ -2,7 +2,6 @@ import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Hero from '../../components/hero'
 import Date from '../../components/date'
-import Category from '../../components/category'
 import { motion } from "framer-motion"
 
 export default function Post({ postData }) {
@@ -21,11 +20,11 @@ export default function Post({ postData }) {
             
                 <div className="meta">
                   <Date dateString={postData.date} />
-                  <ul className="pills">
+                  {/* <ul className="pills">
                     {postData.categories.map(cat => (
                       <li className="pill">{cat}</li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="intro">
                   <p>{postData.intro}</p>
