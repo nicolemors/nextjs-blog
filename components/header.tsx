@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
-import Navigation from './navigation'
 import Logo from './logo'
+import Switcher from './theme-switcher'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
@@ -26,7 +26,7 @@ export default function Header(home) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="header">
+      <header className="header divider">
         {home ? (
           <div className="header__logo">
             <Logo />
@@ -46,7 +46,7 @@ export default function Header(home) {
             </h2>
           </>
         )}
-        <Navigation />
+        <Switcher />
       </header>
     </div>
   )

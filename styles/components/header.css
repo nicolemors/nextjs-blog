@@ -27,3 +27,20 @@
 .light-mode .header {
     background: var(--green);
 }
+
+.divider {
+    background-color: var(--black);
+    width: 100%;
+    height: 11em;
+    clip-path: var(--angle-dark);
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+}
+
+.light-mode .divider {
+    background-color: var(--green);
+    clip-path: var(--angle-light);
+}

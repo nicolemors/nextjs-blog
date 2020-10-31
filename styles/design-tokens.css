@@ -121,6 +121,6 @@
 /* Angles */
 
 :root {
-    --angle-dark: polygon(0 0, 100% 0, 100% 66%, 0 32%);
-    --angle-light: polygon(0 0, 100% 0, 100% 32%, 0 66%)
+    --angle-dark: polygon(0 0, 100% 0, 100% 91%, 0 64%);
+    --angle-light: polygon(0 0, 100% 0, 100% 64%, 0 91%);
 }
