@@ -121,6 +121,12 @@
 /* Angles */
 
 :root {
-    --angle-dark: polygon(0 0, 100% 0, 100% 91%, 0 64%);
-    --angle-light: polygon(0 0, 100% 0, 100% 64%, 0 91%);
+    --angle-dark: polygon(0 0, 100% 0, 100% 100%, 0 41%);
+    --angle-light: polygon(0 0, 100% 0, 100% 41%, 0 100%);
+}
+
+/* Breakpoints */
+
+:root {
+    
 }

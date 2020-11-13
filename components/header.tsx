@@ -8,7 +8,7 @@ import utilStyles from '../styles/utils.module.css'
 const name = 'Nicole Mors'
 export const siteTitle = 'J. Nicole Mors'
 
-export default function Header(home) {
+export default function Header(props) {
   return (
     <div className="global-grid__content">
         <Head>
@@ -25,9 +25,10 @@ export default function Header(home) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <header className="header divider">
-        {home ? (
+        {props.home ? (
           <div className="header__logo">
             <Logo />
             <h1 className={utilStyles.hidden_visually}>{name}</h1>

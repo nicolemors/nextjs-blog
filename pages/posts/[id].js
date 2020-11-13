@@ -21,7 +21,7 @@ export default function Post({ postData }) {
                 <div className="meta">
                   <Date dateString={postData.date} />
                   <ul className="pills">
-                    {postData.categories.map(cat => (
+                    {postData.categories && postData.categories.map(cat => (
                       <li className="pill">{cat}</li>
                     ))}
                   </ul>
