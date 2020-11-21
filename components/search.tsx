@@ -1,6 +1,5 @@
 import { useCallback, useRef, useState } from 'react'
 import Link from 'next/link'
-import styles from './search.module.css'
 
 export default function Search() {
 
@@ -39,11 +38,11 @@ export default function Search() {
 
   return (
     <div
-      className={styles.container}
+      className="container"
       ref={searchRef}
     >
       <input
-        className={styles.search}
+        className="search"
         onChange={onChange}
         onFocus={onFocus}
         placeholder='Search posts'
@@ -51,9 +50,9 @@ export default function Search() {
         value={query}
       />
       { active && results.length > 0 && (
-        <ul className={styles.results}>
+        <ul className="results">
           {results.map(({ id, title }) => (
-            <li className={styles.result} key={id}>
+            <li className="result" key={id}>
               <Link href="/posts/[id]" as={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>

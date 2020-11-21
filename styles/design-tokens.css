@@ -127,6 +127,21 @@
 
 /* Breakpoints */
 
+/* Min */
 :root {
-    
+    --sm-viewport: 576px;
+    --md-viewport: 768px;
+    --lg-viewport: 992px;
+    --xl-viewport: 1200px;
 }
+
+/* Max */
+:root {
+    --sm-max-viewport: @media (max-width: 575.98px);
+    --md-max-viewport: @media (max-width: 767.98px);
+    --lg-max-viewport: @media (max-width: 991.98px);
+    --xl-max-viewport: @media (max-width: 991.98px);
+}
+
+
+

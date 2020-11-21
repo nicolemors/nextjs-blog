@@ -1,9 +1,7 @@
 
 .switch {
-    grid-column-start: 9;
-    grid-column-end: 12;
-    justify-self: end;
-    margin-right: var(--space-sm);
+    justify-content: center;
+    margin-top: var(--space-sm);
     display: flex;
     align-items: flex-start;
     font-size: var(--font-size-xs);
@@ -11,5 +9,16 @@
 
 .switch .button:first-of-type {
     border-right: none;
+}
+
+@media (min-width: 567px) {
+    .switch {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    justify-content: none;
+    justify-self: end;
+    margin-right: var(--space-sm);
+    margin-top: 0;
+    }
 }
 

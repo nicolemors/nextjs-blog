@@ -77,11 +77,17 @@
 }
 
 .section__header {
-  display: flex;
+  margin-top: var(--space-lg);
   justify-content: space-between;
   align-items: center;
   grid-column-start: 2;
   grid-column-end: 12;
+}
+
+@media (min-width: 567px) {
+  .section__header {
+    display: flex;
+  }
 }
 
 .global-grid {

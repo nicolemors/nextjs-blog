@@ -1,6 +1,5 @@
 
 .card__layout {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: var(--space-xxl);
     list-style: none;
@@ -29,6 +28,7 @@
     background: var(--black);
     border: solid var(--border-width-lg) var(--white);
     color: var(--white);
+    margin-bottom: var(--space-xl);
 }
 
 .light-mode .card {
@@ -79,4 +79,13 @@
 
 .light-mode  .card__date {
     color: var(--grey-4);
+}
+
+@media (min-width: 970px) {
+    .card__layout {
+        display: grid;
+    }
+    .card {
+        margin-bottom: 0;
+    }
 }
