@@ -8,10 +8,10 @@ const Switcher = () => {
     return (
       <div className="switch">
         <Button onClick={darkMode.disable}>
-        Light
+        Stay in the Light
         </Button>
         <Button onClick={darkMode.enable}>
-        Dark
+        Go to the Dark Side
         </Button>
       </div>
     );

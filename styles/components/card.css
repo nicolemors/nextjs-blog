@@ -29,6 +29,17 @@
     border: solid var(--border-width-lg) var(--white);
     color: var(--white);
     margin-bottom: var(--space-xl);
+    display: block;
+    text-decoration: none;
+}
+
+.card:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.89);
+}
+
+.card:hover .card__image {
+    background: var(--gradient-2);
 }
 
 .light-mode .card {
@@ -45,7 +56,8 @@
     padding: var(--space-lg) var(--space-lg) var(--space-sm);
 }
 
-.card__title {
+a.card__title, 
+.light-mode a.card__title {
     color: var(--black);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-lg);

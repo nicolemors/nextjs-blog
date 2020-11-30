@@ -5,12 +5,12 @@ import Switcher from './theme-switcher'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
 
-const name = 'Nicole Mors'
-export const siteTitle = 'J. Nicole Mors'
+const name = 'J. Nicole Mors'
+export const siteTitle = 'Portfolio website and blog of J. Nicole Mors'
 
 export default function Header(props) {
   return (
-    <div className="global-grid__content">
+    <div className="global-grid__content header__fixed">
         <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -35,16 +35,13 @@ export default function Header(props) {
           </div>
         ) : (
           <>
+          <div className="header__logo">
             <Link href="/">
               <a>
                 <Logo />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
+            </div>
           </>
         )}
         <Switcher />

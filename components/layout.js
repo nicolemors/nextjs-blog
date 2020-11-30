@@ -1,20 +1,20 @@
 import Link from 'next/link'
 import styles from './layout.module.css'
 
-const name = 'Nicole Mors'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'J. Nicole Mors'
+export const siteTitle = 'Portfolio website and blog of J. Nicole Mors'
 
 export default function Layout({ children, home }) {
   return (
     <div className="global-grid__content">
       <main>{children}</main>
-      {!home && (
+      {/* {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a className="link">← Back to home</a>
           </Link>
         </div>
-      )}
+      )} */}
     </div>
   )
 }

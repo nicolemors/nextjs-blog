@@ -1,1 +1,1 @@
-export const posts = [{"id":"portfolio-piece","title":"Design Masterpiece"},{"id":"pre-rendering","title":"Two Forms of Pre-rendering"},{"id":"reality-bites","title":"Reality Bites"},{"id":"ssg-ssr","title":"When to Use Static Generation v.s. Server-side Rendering"}]
+export const posts = [{"id":"cloud-four","title":"Cloud Four"},{"id":"netflix-chill","title":"Netflix & Chill"},{"id":"reality-bites","title":"Reality Bites"}]

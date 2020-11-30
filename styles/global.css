@@ -27,11 +27,26 @@ body.light-mode {
 
 a {
   color: var(--blue);
-  text-decoration: none;
+}
+
+.light-mode a {
+  color: var(--navy);
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+a.link:hover {
+  background: var(--gradient-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-mode a.link:hover {
+  background: var(--black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 img {

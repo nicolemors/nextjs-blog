@@ -63,13 +63,9 @@ export default function Home({ allPostsData }) {
       <div className="content">
         <section className="section-1">
           <div className="intro">
-            <h2>Headline...</h2>
-            <p>
-              Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. 
-              Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small 
-              stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer 
-              clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of 
-              our questions courage of our questions.
+            <h2>It's strange times...</h2>
+            <h3>I have never felt so utterly at the mercy of Mother Nature than I have this year.</h3>
+            <p>As Designers we exert control as a part of our jobs. We apply order to chaos. Every pixel is placed with precision. We relish orchestrating look, feel and experience. It's been truly humbling to be reminded this year... that I am just an animal existing on a planet, rotating through the universe. I cannot control any of the effects of a global pandemic and civil unrest that is affecting all of my fellow human animals. It is these effects we are all experiencing together. I can feel the connectedness even if we are all disconnected from each other in so many ways. This is the light in the darkness.
             </p>
           </div>
         </section>
@@ -85,7 +81,7 @@ export default function Home({ allPostsData }) {
               {blogPostsData.map(({ id, date, title, subtitle }) => (
                 <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
                   <Link href={`/posts/${id}`}>
-                    <div className="card">
+                    <a className="card">
                       <motion.div
                       initial={{x: 60, opacity: 0}}
                       animate={{x: 0, opacity: 1}}
@@ -101,7 +97,7 @@ export default function Home({ allPostsData }) {
                           <Date dateString={date} />
                         </div>
                       </div>
-                    </div>
+                    </a>
                   </Link>
                 </motion.li>
               ))}
@@ -114,7 +110,7 @@ export default function Home({ allPostsData }) {
               {portfolioPostsData.map(({ id, date, title, subtitle }) => (
                 <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
                 <Link href={`/posts/${id}`}>
-                  <div className="card">
+                  <a className="card">
                     <motion.div
                     initial={{x: 60, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
@@ -130,14 +126,13 @@ export default function Home({ allPostsData }) {
                         <Date dateString={date} />
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </Link>
               </motion.li>
               ))}
             </motion.ul>
         </section>
         <div className="section-1-bottom"></div>
-        <footer className="section-footer"></footer>
       </div>
     </motion.div>
   )

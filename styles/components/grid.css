@@ -16,8 +16,7 @@
 }
 
 .section-2,
-.section-2-bottom,
-.section-footer {
+.section-2-bottom {
   background-color: var(--grey-4);
 }
 
@@ -30,8 +29,7 @@
 }
 
 .light-mode .section-2,
-.light-mode .section-2-bottom,
-.light-mode .section-footer {
+.light-mode .section-2-bottom {
   background-color: var(--whiteish);
 }
 
@@ -46,8 +44,7 @@
 }
 
 .section-2,
-.section-3,
-.section-footer {
+.section-3 {
   padding-top: 10rem;
   margin-top: -12rem;
 }
@@ -56,6 +53,11 @@
 .section-2-bottom {
   clip-path: var(--angle-dark);
   height: 12em;
+}
+
+.light-mode .section-1-bottom,
+.light-mode .section-2-bottom {
+  clip-path: var(--angle-light);
 }
 
 .section-1 {

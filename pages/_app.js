@@ -1,5 +1,6 @@
 import '../styles/global.css'
 import Header, { siteTitle } from '../components/header.tsx'
+import Footer from '../components/footer.tsx'
 import Head from 'next/head'
 import { AnimatePresence } from "framer-motion"
 import { useRouter } from 'next/router'
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }) {
       <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} />
       </AnimatePresence>
+      <Footer />
     </div>
     
 }
