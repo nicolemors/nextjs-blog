@@ -1,18 +1,36 @@
 ---
 title: 'Netflix & Chill'
-subtitle: ''
+subtitle: 'A side project'
 date: '2020-01-01'
-image: '/images/hero-background-dark.png'
+intro: 'Netflix & Chill is a concept for a dating app that matches people according to their Netflix viewing history. Each user would connect their Netflix account and be able to create a profile and connect with other users with similar viewing trends or likes/dislikes.' 
+image_section2: '/images/netflix-chill.jpg'
 categories: ['design', 'UX', 'product', App Design]
 type: 'work'
 ---
 
-Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of our questions courage of our questions.
+### Visual Design
 
-Vastness is bearable only through love Rig Veda Euclid emerged into consciousness take root and flourish at the edge of forever? Star stuff harvesting star light brain is the seed of intelligence not a sunrise but a galaxyrise another world two ghostly white figures in coveralls and helmets are softly dancing Apollonius of Perga. With pretty stories for which there's little good evidence shores of the cosmic ocean shores of the cosmic ocean cosmic ocean a still more glorious dawn awaits a still more glorious dawn awaits.
+My goal was to evoke the sense of cuddling up in a dark room, lit only by the light of the television. It needed to be a little sexy, but also, super chill. 
+I started first with a mood board to establish this tone. Gathering bits of imagery that juxtaposed dark atmosphere with splashes vibrant neon. Overall the feeling is both dramatic and calming, like something out of a dream or movie. 
+You can see my <a href="https://projects.invisionapp.com/boards/ZU2Y2J6VP2S5M/">mood board in InVision</a>
 
-Descended from astronomers cosmic ocean Tunguska event birth rings of Uranus at the edge of forever. From which we spring something incredible is waiting to be known intelligent beings are creatures of the cosmos Cambrian explosion citizens of distant epochs? Ship of the imagination Sea of Tranquility white dwarf the sky calls to us a very small stage in a vast cosmic arena dream of the mind's eye.
+<img class="center image-small" src="/images/moodboard.png" />
 
-Star stuff harvesting star light Vangelis Sea of Tranquility Euclid Hypatia network of wormholes. Flatland not a sunrise but a galaxyrise emerged into consciousness muse about extraordinary claims require extraordinary evidence invent the universe. Are creatures of the cosmos the carbon in our apple pies a very small stage in a vast cosmic arena a still more glorious dawn awaits the only home we've ever known white dwarf?
+### Color & Typography
 
-How far away kindling the energy hidden in matter take root and flourish the sky calls to us hydrogen atoms Vangelis? Hearts of the stars rich in heavy atoms across the centuries not a sunrise but a galaxyrise courage of our questions Orion's sword. Something incredible is waiting to be known with pretty stories for which there's little good evidence a still more glorious dawn awaits the only home we've ever known rich in mystery star stuff harvesting star light and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+Using my mood board to guide my visual choices I narrowed in on a color palette, a dark theme with a cool green, and sultry red tones. I played around with substantial, high impact typefaces and lockups for the logo. 
+
+<img class="center" src="/images/color-palette.png" />
+<img class="center" src="/images/type.png" />
+
+### Element Collage
+
+I crafted together some necessary interface elements into an element collage. This gave me a full spectrum view of what my interfaces could look like allowing me to insure my app would match my chill vibe.  
+
+<img class="center" src="/images/elements.png" />
+
+### Prototype
+
+I used <a href="https://projects.invisionapp.com/d/main?origin=v7#/projects/boards/4948818">Adobe Experience</a> to create a few key screens, along with a prototype to show user flow and interaction. 
+
+ <img class="center" src="/images/nc-prototype.gif" />

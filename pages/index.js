@@ -65,7 +65,7 @@ export default function Home({ allPostsData }) {
           <div className="intro">
             <h2>It's strange times...</h2>
             <h3>I have never felt so utterly at the mercy of Mother Nature than I have this year.</h3>
-            <p>As Designers we exert control as a part of our jobs. We apply order to chaos. Every pixel is placed with precision. We relish orchestrating look, feel and experience. It's been truly humbling to be reminded this year... that I am just an animal existing on a planet, rotating through the universe. I cannot control any of the effects of a global pandemic and civil unrest that is affecting all of my fellow human animals. It is these effects we are all experiencing together. I can feel the connectedness even if we are all disconnected from each other in so many ways. This is the light in the darkness.
+            <p>As Designers we exert control as a part of our jobs. We apply order to chaos. Every pixel is placed with precision. We relish orchestrating look, feel and experience. It's been truly humbling to be reminded this year... that I am just an animal existing on a planet, rotating through the universe. I cannot control any of the effects of a global pandemic and civil unrest that is affecting all of my fellow human animals. It is these effects we are all experiencing together. I can feel the connectedness even if we are all disconnected from each other in so many ways. <strong>This is the light in the darkness.</strong>
             </p>
           </div>
         </section>

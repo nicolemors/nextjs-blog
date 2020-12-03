@@ -17,7 +17,6 @@ export default function Post({ postData }) {
           </Hero>
           <article className="content">
             <section className="section-1">
-            
                 <div className="meta">
                   <Date dateString={postData.date} />
                   <ul className="pills">
@@ -26,10 +25,7 @@ export default function Post({ postData }) {
                     ))}
                   </ul>
                 </div>
-                <div className="intro">
-                  <p>{postData.intro}</p>
-                </div>
-            
+                  <p className="intro" dangerouslySetInnerHTML={{ __html: postData.intro }} />       
             </section>
             <div className="section-1-bottom"></div>
             <section className="section-2">
@@ -40,9 +36,9 @@ export default function Post({ postData }) {
               src={postData.image_section2} />
             </section>
             <div className="section-2-bottom"></div>
-            <section className="section-3">
-              <div className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-            </section>
+              <section className="section-3">
+                <div className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+              </section>
             <div className="section-3-bottom"></div>
           </article>
         </Layout>

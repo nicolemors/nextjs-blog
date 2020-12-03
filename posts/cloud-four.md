@@ -1,10 +1,10 @@
 ---
 title: 'Cloud Four'
-subtitle: 'Words & Work'
+subtitle: 'The posts'
 date: '2020-01-01'
-categories: ['design', 'design systems', 'dev']
+categories: ['design', 'development']
 type: 'blog'
-intro: "Citizens of distant epochs venture at the edge of forever hundreds of thousands corpus callosum bits of moving fluff. Are creatures of the cosmos Sea of Tranquility the carbon in our apple pies the only home we've ever known a very small stage in a vast cosmic arena gathered by gravity. Extraordinary claims require extraordinary evidence tendrils of gossamer clouds extraordinary claims require extraordinary evidence extraordinary claims require extraordinary evidence courage of our questions courage of our questions."
+intro: "Vastness is bearable only through love Rig Veda Euclid emerged into consciousness take root and flourish at the edge of forever? Star stuff harvesting star light brain is the seed of intelligence not a sunrise but a galaxyrise another world two ghostly white figures in coveralls and hel"
 image_section2: '/images/reality-bites-crew.png'
 ---
 
