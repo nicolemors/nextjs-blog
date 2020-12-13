@@ -14,19 +14,19 @@ export default function Navigation () {
         <div className="footer__connect">
         <ul className="footer__connect-list">
                 <li>
-                    <a className="link" href="">
+                    <a className="link" href="https://github.com/nicolemors">
                         <img alt="github logo" className="footer__connect-icon" src="/images/git.svg" />
                         Github
                     </a>
                 </li>
                 <li>
-                    <a className="link" href="">
+                    <a className="link" href="https://www.linkedin.com/in/nicolemors/">
                         <img alt="linkedin logo" className="footer__connect-icon" src="/images/linkedin.svg" />
                         LinkedIn
                     </a>
                 </li>
                 <li>
-                    <a className="link" href="">
+                    <a className="link" href="https://dribbble.com/nicolemors">
                         <img alt="dribbble logo" className="footer__connect-icon" src="/images/dribbble.svg" />
                         Dribbble
                     </a>
