@@ -120,6 +120,10 @@ ul {
     list-style-type: disc;
 }
 
+li {
+    margin-bottom: var(--space-xs);
+}
+
 ol {
     list-style-type: decimal;
 }

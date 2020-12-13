@@ -1,19 +1,15 @@
 ---
 title: 'Cloud Four'
 subtitle: 'The posts'
-date: '2020-01-01'
-categories: ['design', 'development']
+date: '2020-12-13'
+categories: ['design', 'writing']
 type: 'blog'
-intro: "Vastness is bearable only through love Rig Veda Euclid emerged into consciousness take root and flourish at the edge of forever? Star stuff harvesting star light brain is the seed of intelligence not a sunrise but a galaxyrise another world two ghostly white figures in coveralls and hel"
-image_section2: '/images/reality-bites-crew.png'
+intro: "I really enjoyed my time working at Cloud Four. I was a huge fan of theirs before I was ever an employee. They are industry pioneers and leaders as well as overall good humans."
 ---
 
-### sub-header
+Over the two years I worked for Cloud Four I did really interesting work with various clients some big like Walmart, some small like local startups. Most of that work consisted of pattern libraries, design systems and design in the browser. All of the work was complete design/development overlap, and is the foundation of how I love to work to this day. I consider myself a technical designer. One who codes, _and_ makes things beautiful. I wouldn't go so far as to say it made me believe in "unicorns" (the elusive designer that can do it all), however, the time I spent at Cloud Four made me realize that you don't really have to choose one or the other. You can do both. 
+I wrote a few posts, check them out on the Cloud Four website:
 
-Vastness is bearable only through love Rig Veda Euclid emerged into consciousness take root and flourish at the edge of forever? Star stuff harvesting star light brain is the seed of intelligence not a sunrise but a galaxyrise another world two ghostly white figures in coveralls and helmets are softly dancing Apollonius of Perga. With pretty stories for which there's little good evidence shores of the cosmic ocean shores of the cosmic ocean cosmic ocean a still more glorious dawn awaits a still more glorious dawn awaits.
-
-Descended from astronomers cosmic ocean Tunguska event birth rings of Uranus at the edge of forever. From which we spring something incredible is waiting to be known intelligent beings are creatures of the cosmos Cambrian explosion citizens of distant epochs? Ship of the imagination Sea of Tranquility white dwarf the sky calls to us a very small stage in a vast cosmic arena dream of the mind's eye.
-
-Star stuff harvesting star light Vangelis Sea of Tranquility Euclid Hypatia network of wormholes. Flatland not a sunrise but a galaxyrise emerged into consciousness muse about extraordinary claims require extraordinary evidence invent the universe. Are creatures of the cosmos the carbon in our apple pies a very small stage in a vast cosmic arena a still more glorious dawn awaits the only home we've ever known white dwarf?
-
-How far away kindling the energy hidden in matter take root and flourish the sky calls to us hydrogen atoms Vangelis? Hearts of the stars rich in heavy atoms across the centuries not a sunrise but a galaxyrise courage of our questions Orion's sword. Something incredible is waiting to be known with pretty stories for which there's little good evidence a still more glorious dawn awaits the only home we've ever known rich in mystery star stuff harvesting star light and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+- [I tried Adobe Experience Design and it's kind of Awesome](https://cloudfour.com/thinks/i-tried-adobe-experience-design-and-its-kind-of-awesome/)
+- [The Year of the Ugly Unicorn](https://cloudfour.com/thinks/the-year-of-the-ugly-unicorn/)
+- [Element Collages are Fun!](https://cloudfour.com/thinks/element-collages-are-fun/)
