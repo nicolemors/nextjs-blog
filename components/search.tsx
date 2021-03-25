@@ -45,7 +45,7 @@ export default function Search() {
         className="search"
         onChange={onChange}
         onFocus={onFocus}
-        placeholder='Search posts'
+        placeholder='Search projects & posts'
         type='text'
         value={query}
       />

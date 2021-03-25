@@ -1,7 +1,7 @@
 ---
 title: 'Reality Bites (part 1)'
 subtitle: 'Design Systems For The Real World'
-date: '2020-11-01'
+date: '2021-01-01'
 categories: ['design', 'design systems']
 type: 'blog'
 intro: "I originally gave this as a talk for a local UX design meetup a few years back. I was looking for a different presentation in my google slides the other day, and I stumbled across this one. While flipping through it a couple things came to mind. First, the talk had some moments of calamity, both my fault &#40;my notifications to take my garbage and recycling out popping up constantly&#41;, and not my fault &#40;the beer cycle folks pedaling by the open cargo door to the space we were in, their woooooooos! punctuating my talk&#41;. That aside, looking through the slides I thought to myself, there is still some pretty relevant content here, issues I am still dealing with, years later. If I am still struggling, chances are other people working on real world designs systems are too, so I thought I'd distill the good bits and relevant parts down to a blog post."

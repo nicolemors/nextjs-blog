@@ -19,9 +19,15 @@ type: 'work'
 - Front-end Implementation & collaboration
 - Usability testing
 
+The <a href="https://www.airship.com/">Airship platform</a> enables enterprise brands to coordinate, and orchestrate messaging across their marketing channels such as mobile app, push notifications, email, and SMS.
+
+A big part of that is sending the right message to the right person. This project was centered around that concept, the ability to send relevant messaging by targeting a super specific subset of an audience otherwise know as audience segmentation.
+
+The project specifically overhauled the Airship Segment Builder UI and experience.
+
 #### Problems:
 
-- Limited data types
+- Limited data types. We needed to more data and the ability to manipulate it.
 - Building logic into segments was confusing.
 - Audience estimator was in inaccurate, causing a lack of trust in the user experience overall.
 
@@ -32,7 +38,7 @@ type: 'work'
         </figcaption>
 </figure>
 
-#### Problems:
+#### Goals/Outcomes:
 
 - Provide an extensive set of data attributes with which to segment with so customers can realize their use cases.
 - Make creating a segment with complex use cases easy and intuitive.
@@ -40,7 +46,8 @@ type: 'work'
 
 #### The Process
 
-Led, organized, and facilitated multiple design sprints where the team aligned strategically on goals, assumptions and outcomes.
+To kick-off, and a various strategic phases in the process the team (Product, Design, Engineering) took part in <a href="">Design Sprints.</a> These were approximately week long efforts where the team came to Portland and worked together doing research, whiteboarding, ideation, prototyping and testing.
+My part was to organize, lead and facilitate the Design Sprint so the team to align strategically on goals, assumptions and outcomes.
 
 <figure>
     <img src="/images/segmentation-map 1.png" alt="User Experience Map" />
@@ -61,9 +68,9 @@ Throughout the project lifecycle, wireframes, user flows, prototypes and mockups
 
 #### Success
 
-Unlocked extensive user-level data attributes, and enabled users to manipulate and configure those attributes within the UI and segment building experience.
+With the new segment builder experience we were able unlock extensive user-level data attributes, and enabled users to manipulate and configure those attributes within the UI and segment building experience.
 
-Enabled customers to  execute complex segment logic structures without over complicating the overall user experience.
+Customers are able to  execute complex segment logic structures without over complicating the overall user experience.
 
 <figure>
     <img src="/images/new-builder.png" alt="New Segment Builder UI" />
@@ -72,7 +79,9 @@ Enabled customers to  execute complex segment logic structures without over comp
         </figcaption>
 </figure>
 
-Created a new paradigm beyond just audience estimation. Provided inline audience counts, so users could see a more nuanced breakdown of how their segment audience. This gave customers control and confidence that their 
-messaging is going to the correct,  relevant audience. 
+We implemented a new paradigm beyond just audience estimation, with inline audience counts, so users could see a more nuanced breakdown of how their segment audience. This gives customers control and confidence that their 
+messaging is going to the correct, relevant audience. 
+
+<a href="/posts/dark-matter">Check out another project: Dark Matter, a Design System</a>
 
 

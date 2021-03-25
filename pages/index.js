@@ -71,7 +71,12 @@ export default function Home({ allPostsData }) {
         </section>
         <div className="section-1-bottom"></div>
         <section className="section-2">
-        <h3 className="section__header">Recent Projects</h3>
+        <div className="section__header">
+            <h3>Recent Projects</h3>
+            <motion.div variants={fadeInUp}>
+                  <Search />
+            </motion.div>
+        </div>
             <motion.ul variants={stagger} className="card__layout">
               {portfolioPostsData.map(({ id, date, title, subtitle }) => (
                 <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
@@ -103,10 +108,7 @@ export default function Home({ allPostsData }) {
         <section className="section-3">
         <div className="section__header">
             <h3>Recent Blog Posts</h3>
-            <motion.div variants={fadeInUp}>
-                  <Search />
-            </motion.div>
-          </div>
+        </div>
             <motion.ul variants={stagger}  className="card__layout">
               {blogPostsData.map(({ id, date, title, subtitle }) => (
                 <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
