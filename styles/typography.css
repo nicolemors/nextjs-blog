@@ -24,6 +24,7 @@ h6 {
 h1 {
     font-size: var(--font-size-xxl);
     font-weight: var(--font-weight-black);
+    line-height: var(--line-height-sm);
 }
 
 h2 {
