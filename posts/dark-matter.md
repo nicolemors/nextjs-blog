@@ -17,7 +17,7 @@ type: 'work'
 - Report Design System progress and success.
 - Present and champion the system’s mission, and process to other groups and across the organization. 
 
-When I started at <a href="https://www.airship.com/">Airship</a> in 2016 there was no formalized Design System in place. It was kind of like the wild west, where every Designer was doing their own thing. This led of overall inefficiencies, consistency issues, and a whole lot of technical debt. 
+When I started at <a href="https://www.airship.com/">Airship</a> in 2016 there was no formalized Design System in place. It was kind of like the wild west, where every Designer was doing their own thing. This led to overall inefficiencies, consistency issues, and a whole lot of technical debt. 
 
 Because all the designers at Airship are also front-end developers the immediate need was a solid CSS archetecture, and reference tool so folks could see available component markup and related classes. Once we had that tool available it was time to reign in our Sketch (and now Figma) design libraries, building a 1:1 relationship with components available for mockups and prototypes to what is available in the front-end code base.
 
@@ -28,7 +28,7 @@ Because all the designers at Airship are also front-end developers the immediate
         </figcaption>
 </figure>
 
-As time as gone by, Dark Matter has grown exponentially. As the front-end engineering team made the move to React components, we moved our reference site to Storybook. This serves as a robust home for all the parts of Dark Matter and provides a centralized location, the single source of truth, for all the systems' principles, guidelines, components, resources and more. 
+As time has gone by, Dark Matter has grown exponentially. As the front-end engineering team made the move to React components, we moved our reference site to Storybook. This serves as a robust home for all the parts of Dark Matter and provides a centralized location, the single source of truth, for all the systems' principles, guidelines, components, resources and more. 
 
 #### Success:
 
