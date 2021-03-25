@@ -44,9 +44,10 @@ export default function Header(props) {
             </div>
           </>
         )}
+        <Switcher />
       </header>
       <div className="header divider">
-        <Switcher />
+       
       </div>
     </div>
   )
