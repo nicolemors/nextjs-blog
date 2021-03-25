@@ -53,3 +53,18 @@ img {
   max-width: 100%;
   display: block;
 }
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: var(--font-size-sm);
+  margin-top: var(--size-sm);
+  font-style: italic;
+  color: var(--grey);
+}
+
+.light-mode figcaption {
+  color: var(--grey-4);
+}

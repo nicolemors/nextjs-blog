@@ -71,7 +71,37 @@ export default function Home({ allPostsData }) {
         </section>
         <div className="section-1-bottom"></div>
         <section className="section-2">
-          <div className="section__header">
+        <h3 className="section__header">Recent Projects</h3>
+            <motion.ul variants={stagger} className="card__layout">
+              {portfolioPostsData.map(({ id, date, title, subtitle }) => (
+                <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
+                <Link href={`/posts/${id}`}>
+                  <a className="card">
+                    <motion.div
+                    initial={{x: 60, opacity: 0}}
+                    animate={{x: 0, opacity: 1}}
+                    transition={{delay: 0.2}} 
+                    className="card__image" >
+                      <a className="card__title">{title}</a>
+                    </motion.div>
+                    <div className="card__content">
+                      
+                      <a className="card__sub-title">{subtitle}</a>
+                      <br />
+                      <div className="card__date">
+                        <Date dateString={date} />
+                      </div>
+                    </div>
+                  </a>
+                </Link>
+              </motion.li>
+              ))}
+            </motion.ul>
+         
+        </section>
+        <div className="section-2-bottom"></div>
+        <section className="section-3">
+        <div className="section__header">
             <h3>Recent Blog Posts</h3>
             <motion.div variants={fadeInUp}>
                   <Search />
@@ -100,35 +130,6 @@ export default function Home({ allPostsData }) {
                     </a>
                   </Link>
                 </motion.li>
-              ))}
-            </motion.ul>
-        </section>
-        <div className="section-2-bottom"></div>
-        <section className="section-3">
-          <h3 className="section__header">Recent Projects</h3>
-            <motion.ul variants={stagger} className="card__layout">
-              {portfolioPostsData.map(({ id, date, title, subtitle }) => (
-                <motion.li variants={fadeInUp} className={utilStyles.listItem} key={id}>
-                <Link href={`/posts/${id}`}>
-                  <a className="card">
-                    <motion.div
-                    initial={{x: 60, opacity: 0}}
-                    animate={{x: 0, opacity: 1}}
-                    transition={{delay: 0.2}} 
-                    className="card__image" >
-                      <a className="card__title">{title}</a>
-                    </motion.div>
-                    <div className="card__content">
-                      
-                      <a className="card__sub-title">{subtitle}</a>
-                      <br />
-                      <div className="card__date">
-                        <Date dateString={date} />
-                      </div>
-                    </div>
-                  </a>
-                </Link>
-              </motion.li>
               ))}
             </motion.ul>
         </section>

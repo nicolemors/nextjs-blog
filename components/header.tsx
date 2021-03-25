@@ -27,7 +27,7 @@ export default function Header(props) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <header className="header divider">
+      <header className="header">
         {props.home ? (
           <div className="header__logo">
             <Logo />
@@ -44,8 +44,10 @@ export default function Header(props) {
             </div>
           </>
         )}
-        <Switcher />
       </header>
+      <div className="header divider">
+        <Switcher />
+      </div>
     </div>
   )
 }

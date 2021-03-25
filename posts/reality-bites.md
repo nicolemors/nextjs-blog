@@ -1,5 +1,5 @@
 ---
-title: 'Reality Bites'
+title: 'Reality Bites (part 1)'
 subtitle: 'Design Systems For The Real World'
 date: '2020-11-01'
 categories: ['design', 'design systems']

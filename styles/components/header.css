@@ -6,7 +6,7 @@
 }
 
 .header {
-    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
     color: var(--silver);
     padding-top: var(--space-lg);
 }
@@ -38,19 +38,13 @@
 
 .header__svg {
     fill: url(#logo-gradient);
-}
-
-.light-mode .header__svg {
-    fill: var(--black);
-}
-
-.light-mode .header {
-    background: rgba(114, 244, 160, 0.85);
+    transform: rotate(-8deg);
 }
 
 .divider {
+    background: rgba(0, 0, 0, 0.85);
     width: 100%;
-    height: 15em;
+    height: 9em;
     clip-path: var(--angle-dark);
 }
 
@@ -65,4 +59,5 @@
 
 .light-mode .divider {
     clip-path: var(--angle-light);
+    background: rgba(255, 255, 255, 0.85);
 }

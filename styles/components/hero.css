@@ -26,13 +26,12 @@
     color: var(--green);
 }
 
-.light-mode .hero__header,
-.light-mode .hero__subheader {
+.light-mode .hero__header {
     color: var(--white);
 }
 
 .light-mode .hero {
-    background-image: url("/public/images/hero-background-light.jpg");
+    background-image: url("/public/images/green-lightrays.jpg");
     background-size: 1800px;
     background-position: center -300px;
 }
@@ -41,6 +40,7 @@
     font-weight: var(--font-weight-regular);
     text-align: center;
     line-height: var(--line-height-xs);
+    color: var(--white);
 }
 
 .home-hero h1 {
