@@ -67,6 +67,7 @@ export default function Home({ allPostsData }) {
             <h3>I have never felt so utterly at the mercy of Mother Nature than I have this year.</h3>
             <p>As Designers we exert control as a part of our jobs. We apply order to chaos. Every pixel is placed with precision. We relish orchestrating look, feel and experience. It's been truly humbling to be reminded this year... that I am just an animal existing on a planet, rotating through the universe. I cannot control any of the effects of a global pandemic and civil unrest that is affecting all of my fellow human animals. It is these effects we are all experiencing together. I can feel the connectedness even if we are all disconnected from each other in so many ways. <strong>This is the light in the darkness.</strong>
             </p>
+            <p>Hi, I am J. Nicole Mors. This is my design portfolio and blog. Please check out some of my recent projects and posts. I love connecting with fellow designers, creatives, and curious inviduals. If you do too, <a className="link" href="mailto:nicolemors@gmail.com">shoot me an email</a> or <a className="link" href="https://www.linkedin.com/in/nicolemors/">let's connect</a>.</p>
           </div>
         </section>
         <div className="section-1-bottom"></div>

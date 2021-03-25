@@ -82,6 +82,6 @@ Customers are able to  execute complex segment logic structures without over com
 We implemented a new paradigm beyond just audience estimation, with inline audience counts, so users could see a more nuanced breakdown of how their segment audience. This gives customers control and confidence that their 
 messaging is going to the correct, relevant audience. 
 
-<a href="/posts/dark-matter">Check out another project: Dark Matter, a Design System</a>
+<a className="link" href="/posts/dark-matter">Check out another project: Dark Matter, a Design System</a>
 
 
