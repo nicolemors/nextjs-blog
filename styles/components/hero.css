@@ -16,6 +16,7 @@
 
 .hero__header {
     font-family: var(--font-family-display);
+    line-height: 4rem;
     font-size: var(--font-size-display);
     font-weight: normal;
     margin-bottom: 0;

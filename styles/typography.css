@@ -2,8 +2,14 @@
 
 
 p {
-    line-height: var(--line-height-lg);
+    line-height: var(--line-height-md);
     margin: var(--space-sm) 0;
+}
+
+@media (min-width: 567px) {
+    p {
+        line-height: var(--line-height-lg);
+    }
 }
   
 /**
@@ -29,10 +35,17 @@ h1 {
 
 h2 {
     font-size: var(--font-size-xl);
+    line-height: 2.4rem;
 }
 
 h3 {
     font-size: var(--font-size-lg);
+}
+
+@media (max-width: 567px) {
+    h3 {
+        line-height: 2rem;
+    }
 }
 
 h4 {

@@ -1,6 +1,6 @@
 .pills {
     list-style: none;
-    display: flex;
+    padding-left: 0;
 }
 
 .pill {
@@ -11,9 +11,21 @@
     text-transform: uppercase;
     font-weight: var(--font-weight-bold);
     padding: 0 var(--space-sm);
-    margin-right: var(--space-sm);
 }
 
 .pill:last-of-type {
     margin-right: 0;
+}
+
+
+@media (min-width: 567px) {
+    .pills {
+        display: flex;
+  
+    }
+
+    .pill {
+        margin-right: var(--space-sm);
+    }
+
 }

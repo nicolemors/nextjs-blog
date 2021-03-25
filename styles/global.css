@@ -56,6 +56,7 @@ img {
 
 figure {
   text-align: center;
+  margin: 0;
 }
 
 figcaption {
@@ -63,6 +64,8 @@ figcaption {
   margin-top: var(--size-sm);
   font-style: italic;
   color: var(--grey);
+  line-height: var(--line-height-sm);
+  margin-top: var(--space-sm);
 }
 
 .light-mode figcaption {
