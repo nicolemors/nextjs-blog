@@ -30,11 +30,11 @@
     margin-left: var(--space-xxl);
 }
 
-@media (max-width: 567px) {
+/* @media (max-width: 567px) {
     .header__logo {
         margin-top: 2.2rem;
     }
-}
+} */
 
 .header__svg {
     fill: url(#logo-gradient);
