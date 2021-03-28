@@ -2,7 +2,7 @@
 title: 'Dark Matter'
 subtitle: 'A Design System'
 date: '2021-03-01'
-intro: 'Dark Matter is a Design System that shares Airship institutional knowledge across the organzition. It collects the solved problems that internal teams confront over and over again. It includes brand usage, UX rules, interface components, and code for common workflows.' 
+intro: 'Dark Matter is a Design System that shares Airship institutional knowledge across the organization. It collects the solved problems that internal teams confront over and over again. It includes brand usage, UX rules, interface components, and code for common workflows.' 
 image_section2: '/images/darkmatter.png'
 categories: ['design systems', 'UI', 'product design']
 type: 'work'

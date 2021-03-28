@@ -66,6 +66,10 @@ Throughout the project lifecycle, wireframes, user flows, prototypes and mockups
         </figcaption>
 </figure>
 
+The people using this UI needed are marketers, typically someone with an email marketing background. Most of them are used to WYSIWYG editors. This interface needed to be similar in ease of use and understandability. 
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOXq6MlPt9gb0tcb6vyGUtb%2Fdribbble%3Fnode-id%3D28%253A740%26scaling%3Dmin-zoom%26page-id%3D28%253A410" allowfullscreen></iframe>
+
 #### Success
 
 With the new segment builder experience we were able unlock extensive user-level data attributes, and enabled users to manipulate and configure those attributes within the UI and segment building experience.
