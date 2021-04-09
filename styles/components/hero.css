@@ -23,7 +23,7 @@
 }
 
 .hero__subheader {
-    margin: 0;
+    margin: var(--space-sm) 0;
     color: var(--green);
 }
 
