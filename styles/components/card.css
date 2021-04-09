@@ -67,7 +67,7 @@ a.card__title,
 .card__content {
     padding: var(--space-sm) var(--space-lg);
     position: relative;
-    height: 10em;
+    height: 6em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,8 +96,5 @@ a.card__title,
 @media (min-width: 970px) {
     .card__layout {
         display: grid;
-    }
-    .card {
-        margin-bottom: 0;
     }
 }

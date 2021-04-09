@@ -3,7 +3,7 @@ title: 'Airship Segment Builder'
 subtitle: 'A UX/UI project'
 date: '2020-11-01'
 intro: 'The segment builder project allowed customers to build segments based on a variety of criteria including attributes, events, tags, lists, device properties, other segments. This interface enabled customers to realize their unique segmentation goals in an easy and intuitive way.' 
-image_section2: '/images/Segmentation-UI-3.png'
+image_section2: '/images/Builder.png'
 categories: ['product design', 'UX', 'UI']
 type: 'work'
 ---
@@ -77,7 +77,7 @@ With the new segment builder experience we were able unlock extensive user-level
 Customers are able to  execute complex segment logic structures without over complicating the overall user experience.
 
 <figure>
-    <img src="/images/new-builder.png" alt="New Segment Builder UI" />
+    <img src="/images/FullBuilder.png" alt="New Segment Builder UI" />
         <figcaption>
         New Segment Builder UI
         </figcaption>

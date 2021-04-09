@@ -1,1 +1,1 @@
-export const posts = [{"id":"cloud-four","title":"Cloud Four"},{"id":"dark-matter","title":"Dark Matter"},{"id":"netflix-chill","title":"Netflix & Chill"},{"id":"reality-bites","title":"Reality Bites (part 1)"},{"id":"segmentation","title":"Airship Segment Builder"}]
+export const posts = [{"id":"cloud-four","title":"Cloud Four"},{"id":"composer","title":"Airship Composer"},{"id":"dark-matter","title":"Dark Matter"},{"id":"netflix-chill","title":"Netflix & Chill"},{"id":"reality-bites","title":"Reality Bites (part 1)"},{"id":"segmentation","title":"Airship Segment Builder"}]
